@@ -1,0 +1,28 @@
+.loading {
+  padding: 64px;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.page {
+  padding: 24px 0 56px;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.back {
+  color: var(--color-primary);
+  font-size: 0.88rem;
+  flex-shrink: 0;
+}
+.back:hover { opacity: 0.75; }
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+}

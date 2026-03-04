@@ -90,3 +90,13 @@
   color: var(--color-primary);
   font-weight: 600;
 }
+
+.inputError {
+  border-color: #dc2626;
+}
+
+.fieldError {
+  font-size: 0.8rem;
+  color: #dc2626;
+  margin-top: 2px;
+}
