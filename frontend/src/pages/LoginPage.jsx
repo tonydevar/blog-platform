@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { Link, useNavigate, useLocation, Navigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';
 import styles from './AuthPage.module.css';
 
 export default function LoginPage() {
-  const { login } = useAuth();
+  const { user, login } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || '/';
@@ -12,6 +12,9 @@ export default function LoginPage() {
   const [form, setForm] = useState({ email: '', password: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
+  // Redirect if already logged in
+  if (user) return <Navigate to="/" replace />;
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -71,7 +74,7 @@ export default function LoginPage() {
         </form>
 
         <p className={styles.footer}>
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <Link to="/register" className={styles.link}>Register</Link>
         </p>
       </div>

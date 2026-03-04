@@ -1,17 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import styles from './PostPage.module.css';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext.jsx';
+import PostEditor from '../components/PostEditor.jsx';
+import styles from './EditorPage.module.css';
 
 export default function CreatePostPage() {
+  const { token } = useAuth();
+  const navigate = useNavigate();
+
+  async function handleSubmit(values) {
+    const res = await fetch('/api/posts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(values),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Failed to create post');
+    navigate(`/post/${data.post.id}`);
+  }
+
   return (
     <div className={`container ${styles.page}`}>
-      <Link to="/" className={styles.back}>← Back to posts</Link>
-      <div className={styles.article}>
-        <h1>Create New Post</h1>
-        <p style={{ color: 'var(--color-text-secondary)', marginTop: '12px' }}>
-          Post editor coming soon in a future feature.
-        </p>
+      <div className={styles.header}>
+        <Link to="/" className={styles.back}>← Back</Link>
+        <h1 className={styles.title}>New Post</h1>
       </div>
+      <PostEditor onSubmit={handleSubmit} submitLabel="Publish Post" />
     </div>
   );
 }
