@@ -1,0 +1,354 @@
+[
+  {
+    "id": "the-future-of-web-development",
+    "title": "The Future of Web Development",
+    "excerpt": "Explore the cutting-edge technologies shaping the next generation of the web, from WebAssembly to edge computing.",
+    "content": "# The Future of Web Development\n\nThe web development landscape is evolving at an unprecedented pace. As developers, staying ahead of these changes is crucial to building relevant, high-performance applications.\n\n## Key Trends to Watch\n\n- **WebAssembly (WASM):** Near-native performance in the browser is becoming a reality, opening doors for complex applications like video editors and 3D engines.\n- **Edge Computing:** Moving compute closer to users with platforms like Cloudflare Workers and Vercel Edge Functions dramatically reduces latency.\n- **AI-Augmented Development:** Tools like GitHub Copilot are changing how code is written, allowing developers to focus on architecture and logic.\n- **The Metaverse Web (WebXR):** Immersive 3D experiences built with browser APIs are gaining traction.\n\nThese technologies are not isolated trends\u2014they are converging to create a fundamentally different development paradigm. The developers who thrive will be those who embrace continuous learning and adapt to new tooling without abandoning the foundational principles of good software engineering.",
+    "authorId": "user-alice-001",
+    "category": "Technology",
+    "status": "published",
+    "readTime": 5,
+    "tags": [
+      "webdev",
+      "wasm",
+      "edge-computing",
+      "future-tech"
+    ],
+    "comments": [
+      {
+        "id": "comment-001-a",
+        "authorId": "user-bob-002",
+        "body": "Great overview! I'm particularly excited about WebAssembly \u2014 the potential for porting desktop apps to the web is enormous.",
+        "createdAt": "2024-02-10T09:15:00.000Z"
+      },
+      {
+        "id": "comment-001-b",
+        "authorId": "user-alice-001",
+        "body": "Thanks Bob! Edge computing is my personal favorite \u2014 the latency improvements are truly remarkable in practice.",
+        "createdAt": "2024-02-10T11:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-02-08T08:00:00.000Z",
+    "updatedAt": "2024-02-09T16:00:00.000Z"
+  },
+  {
+    "id": "mastering-react-server-components",
+    "title": "Mastering React Server Components",
+    "excerpt": "A deep dive into React Server Components: what they are, how they work, and when to use them in production.",
+    "content": "# Mastering React Server Components\n\nReact Server Components (RSC) represent a fundamental shift in how we think about rendering in React applications. Unlike traditional SSR, RSC allows components to run exclusively on the server \u2014 no client-side JavaScript emitted.\n\n## Why Server Components Matter\n\n- **Zero client bundle cost:** Server components add no JavaScript to the browser bundle.\n- **Direct backend access:** Query databases, read files, and call services directly without an intermediate API.\n- **Improved security:** Sensitive logic and secrets stay on the server.\n- **Better performance:** Reduced hydration cost leads to faster Time-to-Interactive.\n\n## When to Use Them\n\nServer components shine for data-fetching heavy pages: dashboards, product listings, blog archives. Reach for client components when you need interactivity \u2014 onClick handlers, useState, useEffect. The mental model: server components are the skeleton, client components are the muscles.\n\nMigrating an existing Next.js app to the App Router requires a thoughtful audit of your component tree, but the performance gains are well worth the investment.",
+    "authorId": "user-alice-001",
+    "category": "Technology",
+    "status": "published",
+    "readTime": 7,
+    "tags": [
+      "react",
+      "nextjs",
+      "server-components",
+      "performance"
+    ],
+    "comments": [
+      {
+        "id": "comment-002-a",
+        "authorId": "user-bob-002",
+        "body": "This cleared up a lot of confusion I had about when to use server vs client components. Bookmarked!",
+        "createdAt": "2024-02-15T13:00:00.000Z"
+      },
+      {
+        "id": "comment-002-b",
+        "authorId": "user-alice-001",
+        "body": "Glad it helped! The mental model really clicks once you build a real project with both component types.",
+        "createdAt": "2024-02-15T15:45:00.000Z"
+      },
+      {
+        "id": "comment-002-c",
+        "authorId": "user-bob-002",
+        "body": "Any plans to write about the caching strategies in Next.js 14? That would be a great follow-up.",
+        "createdAt": "2024-02-16T09:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-02-13T10:00:00.000Z",
+    "updatedAt": "2024-02-14T12:00:00.000Z"
+  },
+  {
+    "id": "morning-routines-that-changed-my-life",
+    "title": "Morning Routines That Changed My Life",
+    "excerpt": "Five simple habits that transformed my productivity and mental well-being over the past year.",
+    "content": "# Morning Routines That Changed My Life\n\nFor most of my adult life, I hit snooze four times and stumbled into my day reactive and frazzled. A year ago, I decided to experiment with intentional mornings \u2014 and the results genuinely surprised me.\n\n## The Five Habits\n\n- **No phone for the first 30 minutes:** Starting the day with my own thoughts instead of the internet's noise was transformative.\n- **10 minutes of journaling:** Three things I'm grateful for and one intention for the day.\n- **20-minute walk:** No podcasts, no music \u2014 just the sound of the world waking up.\n- **Cold shower:** Two minutes at the end of my warm shower. Uncomfortable? Yes. Energizing? Absolutely.\n- **Protein-rich breakfast:** Eggs, Greek yogurt, or a smoothie \u2014 skipping carb-heavy cereals made sustained energy possible.\n\nThese aren't revolutionary ideas. The magic is in the consistency. After three weeks, the routine became automatic, and I noticed a marked improvement in focus, mood, and creativity throughout the day. Start with one habit and build gradually.",
+    "authorId": "user-bob-002",
+    "category": "Lifestyle",
+    "status": "published",
+    "readTime": 4,
+    "tags": [
+      "productivity",
+      "wellness",
+      "habits",
+      "morning-routine"
+    ],
+    "comments": [
+      {
+        "id": "comment-003-a",
+        "authorId": "user-alice-001",
+        "body": "The no-phone rule is so hard to stick to but so worth it! I've been trying this for a month and it's genuinely helped my focus.",
+        "createdAt": "2024-02-22T07:30:00.000Z"
+      },
+      {
+        "id": "comment-003-b",
+        "authorId": "user-bob-002",
+        "body": "Alice \u2014 it gets easier! The trick is keeping your phone in another room overnight. Physical distance is more powerful than willpower.",
+        "createdAt": "2024-02-22T10:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-02-20T06:00:00.000Z",
+    "updatedAt": "2024-02-21T08:00:00.000Z"
+  },
+  {
+    "id": "minimalism-more-with-less",
+    "title": "Minimalism: Living More with Less",
+    "excerpt": "How embracing minimalism freed up mental space, time, and money \u2014 and what I wish I'd known sooner.",
+    "content": "# Minimalism: Living More with Less\n\nMinimalism isn't about owning fewer things for the sake of it. It's about intentionally choosing what adds value to your life and ruthlessly eliminating the rest.\n\n## What I Got Rid Of\n\n- **Duplicate tools:** Three different sets of screwdrivers. One good set is enough.\n- **Clothes I 'might' wear:** The capsule wardrobe experiment revealed I wore 20% of my clothes 80% of the time.\n- **Digital clutter:** Unsubscribed from 60+ newsletters, deleted 12 apps, and organized my desktop.\n- **Obligations:** Saying no to commitments that didn't align with my values.\n\nThe result wasn't an austere, empty apartment. It was a home where everything had a purpose and a place. Decision fatigue dropped noticeably \u2014 fewer things to manage means more cognitive bandwidth for things that matter.\n\nIf you want to start, pick one drawer this weekend. Not the whole house \u2014 one drawer. The feeling of clarity you get will motivate you to continue.",
+    "authorId": "user-bob-002",
+    "category": "Lifestyle",
+    "status": "published",
+    "readTime": 5,
+    "tags": [
+      "minimalism",
+      "lifestyle",
+      "declutter",
+      "intentional-living"
+    ],
+    "comments": [
+      {
+        "id": "comment-004-a",
+        "authorId": "user-alice-001",
+        "body": "Capsule wardrobe is something I've been curious about. Did you follow a specific framework for choosing the core pieces?",
+        "createdAt": "2024-03-02T11:00:00.000Z"
+      },
+      {
+        "id": "comment-004-b",
+        "authorId": "user-bob-002",
+        "body": "I loosely followed Project 333 \u2014 33 items for 3 months. Highly recommend trying it!",
+        "createdAt": "2024-03-02T14:30:00.000Z"
+      },
+      {
+        "id": "comment-004-c",
+        "authorId": "user-alice-001",
+        "body": "Starting with one drawer this weekend! Thanks for the push.",
+        "createdAt": "2024-03-03T09:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-01T09:00:00.000Z",
+    "updatedAt": "2024-03-01T18:00:00.000Z"
+  },
+  {
+    "id": "hidden-gems-of-lisbon",
+    "title": "Hidden Gems of Lisbon",
+    "excerpt": "Beyond the famous viewpoints and trams \u2014 a guide to Lisbon's secret spots, local markets, and underrated neighborhoods.",
+    "content": "# Hidden Gems of Lisbon\n\nLisbon's iconic Alfama district and Bel\u00e9m Tower are magnificent, but the city reveals its true character in quieter corners that most tourists never find.\n\n## Places Worth Seeking Out\n\n- **Mouraria:** The city's oldest neighborhood, now buzzing with multicultural energy and excellent affordable restaurants.\n- **LX Factory:** A repurposed industrial complex in Alc\u00e2ntara hosting markets, independent bookshops, and creative studios. Sunday market is essential.\n- **Prazeres Cemetery:** Sounds morbid, but this 19th-century cemetery is a serene garden of elaborate mausoleums \u2014 architectural photography gold.\n- **Tasca do Chico:** A tiny fado restaurant in Bairro Alto that requires a reservation weeks in advance but offers one of the most authentic musical experiences in the city.\n- **Penedo da Saudade viewpoint:** Fewer tourists than Portas do Sol, equally stunning views over the Tagus.\n\nLisbon rewards slow travel. Ditch the map for an afternoon, get lost in a neighborhood you don't recognize, and follow the smell of past\u00e9is de nata.",
+    "authorId": "user-bob-002",
+    "category": "Travel",
+    "status": "published",
+    "readTime": 6,
+    "tags": [
+      "lisbon",
+      "portugal",
+      "travel",
+      "hidden-gems"
+    ],
+    "comments": [
+      {
+        "id": "comment-005-a",
+        "authorId": "user-alice-001",
+        "body": "Going to Lisbon in May \u2014 this guide is exactly what I needed. LX Factory is already on my list!",
+        "createdAt": "2024-03-10T16:00:00.000Z"
+      },
+      {
+        "id": "comment-005-b",
+        "authorId": "user-bob-002",
+        "body": "You'll love it! Try to go on a Sunday for the market. And the pastel de nata at Manteigaria on Rua do Loreto is the best I've had.",
+        "createdAt": "2024-03-10T18:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-08T12:00:00.000Z",
+    "updatedAt": "2024-03-09T10:00:00.000Z"
+  },
+  {
+    "id": "slow-travel-the-case-for-staying-longer",
+    "title": "Slow Travel: The Case for Staying Longer",
+    "excerpt": "Why spending a month in one place beats rushing through ten countries in two weeks.",
+    "content": "# Slow Travel: The Case for Staying Longer\n\nThe modern traveler's instinct is to maximize destinations: Paris, Amsterdam, Prague \u2014 all in ten days. I've done this, and I've come home more exhausted than I left.\n\n## What You Gain by Slowing Down\n\n- **Neighborhood familiarity:** After a week in one place, you have a favorite bakery, know which supermarket has better produce, and recognize the faces of your neighbors.\n- **Language immersion:** Even a month isn't enough to become fluent, but you'll absorb phrases, rhythms, and gestures that short stays never allow.\n- **Real connections:** Friendships take time. Staying longer opens the door to genuine relationships with locals and fellow long-term visitors.\n- **Cost efficiency:** Monthly apartment rentals are dramatically cheaper per night than hotels or Airbnbs booked week by week.\n- **Serendipity:** The best experiences rarely appear in guidebooks. They happen when you're a regular at the corner caf\u00e9 and someone invites you to a family dinner.\n\nSlow travel isn't for everyone. But if you've ever arrived home from a 'vacation' and felt you needed another vacation, it might be worth trying.",
+    "authorId": "user-bob-002",
+    "category": "Travel",
+    "status": "published",
+    "readTime": 5,
+    "tags": [
+      "slow-travel",
+      "digital-nomad",
+      "travel-tips",
+      "remote-work"
+    ],
+    "comments": [
+      {
+        "id": "comment-006-a",
+        "authorId": "user-alice-001",
+        "body": "I spent a month in Mexico City working remotely and it completely changed how I think about travel. The neighborhood familiarity point is so true.",
+        "createdAt": "2024-03-18T08:00:00.000Z"
+      },
+      {
+        "id": "comment-006-b",
+        "authorId": "user-bob-002",
+        "body": "Mexico City is incredible for slow travel! What neighborhood were you in?",
+        "createdAt": "2024-03-18T10:30:00.000Z"
+      },
+      {
+        "id": "comment-006-c",
+        "authorId": "user-alice-001",
+        "body": "Roma Norte \u2014 highly recommend. Great coffee shops with strong wifi everywhere.",
+        "createdAt": "2024-03-18T11:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-15T09:00:00.000Z",
+    "updatedAt": "2024-03-16T14:00:00.000Z"
+  },
+  {
+    "id": "fermentation-at-home-a-beginners-guide",
+    "title": "Fermentation at Home: A Beginner's Guide",
+    "excerpt": "How to make kimchi, kombucha, and sourdough at home \u2014 practical guides for the curious but cautious beginner.",
+    "content": "# Fermentation at Home: A Beginner's Guide\n\nFermentation is one of humanity's oldest food preservation techniques, and its revival in home kitchens is one of the most exciting food trends of the decade.\n\n## Three Projects to Start With\n\n- **Sourdough:** You need flour, water, salt, and patience. The starter takes 5\u20137 days to develop. Once active, a simple loaf requires just 30 minutes of active work spread over 24 hours. The result is incomparably better than store-bought bread.\n- **Kimchi:** Core ingredients are napa cabbage, gochugaru (Korean chili flakes), garlic, ginger, fish sauce (or miso for vegan), and green onion. Salting the cabbage takes 1\u20132 hours; the rest is quick. It's ready in 2 days, perfect in 2 weeks.\n- **Kombucha:** A SCOBY (symbiotic culture of bacteria and yeast), sweet tea, and a glass jar. First fermentation takes 7\u201314 days. Second fermentation in sealed bottles creates natural carbonation.\n\nThe science is simple: salt (in kimchi and sourdough) inhibits harmful bacteria while encouraging beneficial lactobacillus. Temperature, time, and salt concentration are your control knobs. Start with kimchi \u2014 it's the most forgiving and fastest to results.",
+    "authorId": "user-bob-002",
+    "category": "Food",
+    "status": "published",
+    "readTime": 8,
+    "tags": [
+      "fermentation",
+      "sourdough",
+      "kimchi",
+      "kombucha",
+      "diy-food"
+    ],
+    "comments": [
+      {
+        "id": "comment-007-a",
+        "authorId": "user-alice-001",
+        "body": "Started my first sourdough starter after reading this. Day 3 and it's already bubbling! Any tips for the first bake?",
+        "createdAt": "2024-03-25T07:00:00.000Z"
+      },
+      {
+        "id": "comment-007-b",
+        "authorId": "user-bob-002",
+        "body": "Exciting! For the first bake, use a Dutch oven \u2014 it traps steam and gives you a beautiful crust. Preheat it in the oven. And don't skip the overnight cold proof in the fridge.",
+        "createdAt": "2024-03-25T09:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-22T11:00:00.000Z",
+    "updatedAt": "2024-03-23T09:00:00.000Z"
+  },
+  {
+    "id": "ramen-from-scratch-the-48-hour-broth",
+    "title": "Ramen From Scratch: The 48-Hour Broth",
+    "excerpt": "A deep dive into making tonkotsu ramen from scratch \u2014 the proper way, with a real bone broth that takes two days.",
+    "content": "# Ramen From Scratch: The 48-Hour Broth\n\nThe soul of great ramen lives in the broth. Tonkotsu \u2014 the cloudy, rich, pork-bone broth from Fukuoka \u2014 cannot be rushed. Here's how to do it right.\n\n## The Process\n\n- **Day 1, morning \u2014 Blanch the bones:** Pork trotters and neck bones in boiling water for 10 minutes to purge blood and impurities. Discard water, rinse bones.\n- **Day 1, afternoon \u2014 The long boil:** Bones into a large pot, covered with cold water, brought to a vigorous boil. Not a simmer \u2014 a rolling boil is what breaks down collagen into gelatin and creates that characteristic white, opaque broth. Cook 12 hours minimum. Top up water as needed.\n- **Day 2 \u2014 Tare and toppings:** While the broth finishes, prepare the tare (seasoning sauce) \u2014 a reduction of soy sauce, mirin, sake, and kombu. Soft-boil eggs and marinate them overnight in the tare. Prepare chashu pork belly.\n- **Assembly:** Hot broth + tare + noodles (fresh Sun Noodles if possible) + chashu + marinated egg + nori + green onion + bamboo shoots.\n\nThe result is incomparable to restaurant ramen in the best possible way \u2014 you understand every molecule of flavor because you built it yourself.",
+    "authorId": "user-bob-002",
+    "category": "Food",
+    "status": "published",
+    "readTime": 9,
+    "tags": [
+      "ramen",
+      "japanese-food",
+      "cooking",
+      "broth",
+      "tonkotsu"
+    ],
+    "comments": [
+      {
+        "id": "comment-008-a",
+        "authorId": "user-alice-001",
+        "body": "48 hours is commitment! Is there a decent 8-hour shortcut or does it lose too much depth?",
+        "createdAt": "2024-04-02T12:00:00.000Z"
+      },
+      {
+        "id": "comment-008-b",
+        "authorId": "user-bob-002",
+        "body": "An Instant Pot at high pressure for 3\u20134 hours gets you 70% of the way there. Not the same, but very good for a weeknight. I'll write a separate post on the pressure cooker version.",
+        "createdAt": "2024-04-02T14:00:00.000Z"
+      },
+      {
+        "id": "comment-008-c",
+        "authorId": "user-alice-001",
+        "body": "Please do! I need that weeknight version in my life.",
+        "createdAt": "2024-04-02T15:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-03-30T10:00:00.000Z",
+    "updatedAt": "2024-03-31T08:00:00.000Z"
+  },
+  {
+    "id": "the-science-of-sleep",
+    "title": "The Science of Sleep: What You Need to Know",
+    "excerpt": "Sleep science has advanced dramatically \u2014 here's what the research actually says about optimizing your rest.",
+    "content": "# The Science of Sleep: What You Need to Know\n\nSleep is not passive unconsciousness. It is a highly active biological process essential for memory consolidation, cellular repair, immune function, and emotional regulation.\n\n## Key Research Findings\n\n- **Sleep stages matter:** REM sleep (where most dreaming occurs) is critical for emotional processing and creative problem solving. Deep slow-wave sleep handles physical repair and memory consolidation.\n- **The 90-minute cycle:** Adults cycle through sleep stages approximately every 90 minutes. Waking at the end of a cycle (after 7.5 or 9 hours) tends to feel better than waking mid-cycle.\n- **Temperature signals sleep:** Your core body temperature must drop ~1\u00b0C to initiate sleep. A warm bath 1\u20132 hours before bed paradoxically helps \u2014 the vasodilation it causes accelerates the subsequent temperature drop.\n- **Light is the master clock:** Blue light from screens suppresses melatonin. Exposure to bright outdoor light in the morning anchors your circadian rhythm more effectively than any supplement.\n- **The caffeine half-life problem:** Caffeine's half-life is ~5\u20137 hours. A 3pm espresso means 50% of that caffeine is still circulating at 9pm.\n\nImproving sleep quality is the highest-leverage health intervention available to most people, with returns across every dimension of cognitive and physical performance.",
+    "authorId": "user-alice-001",
+    "category": "Science",
+    "status": "published",
+    "readTime": 7,
+    "tags": [
+      "sleep",
+      "neuroscience",
+      "health",
+      "circadian-rhythm"
+    ],
+    "comments": [
+      {
+        "id": "comment-009-a",
+        "authorId": "user-bob-002",
+        "body": "The 90-minute cycle tip is one I actually use. Waking at 7.5 hours instead of 8 feels noticeably better.",
+        "createdAt": "2024-04-10T07:00:00.000Z"
+      },
+      {
+        "id": "comment-009-b",
+        "authorId": "user-alice-001",
+        "body": "Matthew Walker's 'Why We Sleep' goes much deeper on all of this \u2014 highly recommended if you want the full picture.",
+        "createdAt": "2024-04-10T09:30:00.000Z"
+      }
+    ],
+    "createdAt": "2024-04-08T08:00:00.000Z",
+    "updatedAt": "2024-04-09T10:00:00.000Z"
+  },
+  {
+    "id": "understanding-crispr-gene-editing-explained",
+    "title": "Understanding CRISPR: Gene Editing Explained",
+    "excerpt": "A clear, non-technical explanation of how CRISPR-Cas9 works and why it might be the most significant technology of our time.",
+    "content": "# Understanding CRISPR: Gene Editing Explained\n\nCRISPR-Cas9 is a molecular tool derived from a bacterial immune system. In 2012, Jennifer Doudna and Emmanuelle Charpentier repurposed it for precise genome editing \u2014 work that earned them the 2020 Nobel Prize in Chemistry.\n\n## How It Works\n\n- **The guide RNA:** A short RNA sequence designed to match a specific DNA target. It acts like a GPS coordinate for the editing machinery.\n- **Cas9 protein:** A molecular 'scissors' enzyme that, guided by the RNA, cuts both strands of DNA at the target location.\n- **The cell's repair mechanism:** After the cut, the cell repairs itself \u2014 either by imprecisely joining the cut ends (which disrupts a gene) or by incorporating a template provided by researchers (which inserts or corrects code).\n\n## Why It Matters\n\n- **Medicine:** CRISPR-based therapies for sickle cell disease and beta-thalassemia have shown curative results in clinical trials.\n- **Agriculture:** Disease-resistant crops, precision plant breeding without transgenic modification.\n- **Research:** The ability to precisely knock out any gene has accelerated biological research enormously.\n\nThe ethical questions \u2014 designer babies, germline editing, access equity \u2014 are as important as the technical capabilities. The science is moving faster than the governance frameworks.",
+    "authorId": "user-alice-001",
+    "category": "Science",
+    "status": "published",
+    "readTime": 8,
+    "tags": [
+      "crispr",
+      "genetics",
+      "biotechnology",
+      "science-explained"
+    ],
+    "comments": [
+      {
+        "id": "comment-010-a",
+        "authorId": "user-bob-002",
+        "body": "The analogy of guide RNA as GPS is so helpful. I've read three articles on CRISPR and this is the first one where I actually understood the mechanism.",
+        "createdAt": "2024-04-18T10:00:00.000Z"
+      },
+      {
+        "id": "comment-010-b",
+        "authorId": "user-alice-001",
+        "body": "Thanks! The goal was to explain it as I'd explain it to a smart friend who isn't a biologist. Glad the GPS framing worked.",
+        "createdAt": "2024-04-18T12:00:00.000Z"
+      },
+      {
+        "id": "comment-010-c",
+        "authorId": "user-bob-002",
+        "body": "Would love a follow-up on the ethical debates \u2014 that's where my head goes with this technology.",
+        "createdAt": "2024-04-18T14:00:00.000Z"
+      }
+    ],
+    "createdAt": "2024-04-15T09:00:00.000Z",
+    "updatedAt": "2024-04-16T11:00:00.000Z"
+  }
+]

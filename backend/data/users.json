@@ -1,0 +1,20 @@
+[
+  {
+    "id": "user-alice-001",
+    "name": "Alice Chen",
+    "email": "alice@example.com",
+    "passwordHash": "$2b$10$sbNQ1jPV7QXkQ31Aty5IEeXj2jtPCQ.BshW5Jcfy9tbhIq5pCCg56",
+    "bio": "Full-stack developer and tech blogger. Passionate about open source and cloud architecture.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=alice",
+    "createdAt": "2024-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "user-bob-002",
+    "name": "Bob Martinez",
+    "email": "bob@example.com",
+    "passwordHash": "$2b$10$sbNQ1jPV7QXkQ31Aty5IEeXj2jtPCQ.BshW5Jcfy9tbhIq5pCCg56",
+    "bio": "Travel writer and food enthusiast. Exploring the world one bite and one city at a time.",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=bob",
+    "createdAt": "2024-01-20T14:30:00.000Z"
+  }
+]
